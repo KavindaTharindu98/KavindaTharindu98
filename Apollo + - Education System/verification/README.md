@@ -1,1 +1,0 @@
-# firebase-phone-auth-php
