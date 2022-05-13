@@ -1,4 +1,4 @@
-Site Line - https://m-cloud.herokuapp.com/
+Site Link - https://m-cloud.herokuapp.com/
 
 Medical system is important for patients and doctors to identify and understand medical conditions. If 
 you can use the same platform for it without any hassle, it is a great opportunity. Therefore we 
