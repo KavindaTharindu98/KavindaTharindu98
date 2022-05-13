@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOLLO+ Student Certificate  </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="favicon" href="favicon.ico">
+</head>
+<style>
+	 body{ 
+  background: url(76YM.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+</style> 
+
+<body>
+    <header>
+        <img src="./logo.png" alt="APOLLO+">
+        <h4>Get Student certificate</h4>
+        <h1>APOLLO+</h1>
+    </header>
+    <main>
+
+        <label for="name">Student Name</label>
+        <input required type="text" name="Name" autocomplete="name" placeholder="student name" id="name" minlength="3"
+            maxlength="16">
+        <Button id="submitBtn">Get Certificate</Button>
+
+
+    </main>
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
